@@ -57,7 +57,7 @@ brew install upstash-redis-local
 ### Using Docker
 
 ```bash
-docker run -rm -p 8000:8000 darthbenro008/upstash-redis-local:latest
+docker run --rm -p 8000:8000 -p 6379:6379 darthbenro008/upstash-redis-local:latest
 ```
 
 
